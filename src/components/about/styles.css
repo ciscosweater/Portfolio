@@ -1,0 +1,144 @@
+.about-container {
+    background-color: #333;
+    background-image: url('../../assets/fundo-sobre.jpg');
+    background-size: cover;
+}
+
+.profile-container {
+    color: #333;
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50vh;
+    min-height: 70vh;
+    background: #210934;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: rgba(20, 20, 20, 0.2) 0px 7px 29px 0px;
+}
+
+.profile-image {
+    width: 25vh;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #A33AF2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.profile-image:hover {
+    transform: scale(1.02);
+    border: 4px solid #fff;
+}
+
+.name-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.profile-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: #EFDDFD;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.profile-button {
+    width: 10vw;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background-color: #700CBC;
+    color: #EFDDFD;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.profile-button:hover {
+    background-color: #EFDDFD;
+    color: #700CBC;
+}
+
+.about-divider {
+    width: 100%;
+    border-top: .5px solid #A33AF2;
+    margin: 20px 0;
+}
+
+.icons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.icon-item {
+    width: 80px;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icon-item:hover {
+    transform: scale(1.02);
+}
+
+.profile-sinopse {
+    width: 40vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 17px;
+}
+
+@media(max-width: 1280px) {
+
+    .profile-container {
+        padding: 50px 0 50px 0;
+    }
+
+    .profile-content {
+        width: 100%;
+    }
+
+    .profile-card {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .profile-button {
+        width: 40vw;
+        height: 8vh;
+        font-size: 0.9em;
+    }
+
+    .profile-sinopse {
+        width: 80vw;
+        margin-top: 5vh;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: #EFDDFD;
+        font-size: 1em;
+    }
+
+    .icon-item {
+        width: 60px;
+        height: 100%;
+    }
+}

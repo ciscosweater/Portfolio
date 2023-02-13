@@ -1,0 +1,61 @@
+.card-container {
+    height: 500px;
+    width: 300px;
+    background-color: #210934;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 8px 8px 0 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #EFDDFD;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.card-description {
+    font-family: 'Montserrat', sans-serif;
+    color: #EFDDFD;
+    font-size: 0.9em;
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+}
+
+.card-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #36065B;
+    color: #EFDDFD;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-left: 75px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card-button:hover {
+    background-color: #EFDDFD;
+    color: #36065B;
+}
