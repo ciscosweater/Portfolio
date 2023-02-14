@@ -14,7 +14,7 @@ function About() {
                         <img className="profile-image" src={perfilPic} alt="Foto do Desenvolvedor do Currículo." />
                         <span className="name-text">Gustavo Francisco</span>
                         <span className="profile-text">
-                            Foco, disciplica e consistência.
+                            Foco, disciplina e consistência.
                             Vamos revolucionar o mercado de tecnologia juntos?
                         </span>
                         <a href="https://www.instagram.com/guhfrancisco_/" target="blank">
@@ -31,12 +31,10 @@ function About() {
                     </div>
                 </div>
                 <p className="profile-sinopse">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius eleifend eros.
-                    Proin hendrerit risus sit amet turpis mollis mattis non vel nulla. Nunc scelerisque maximus metus,
-                    ullamcorper porta lacus porta tristique. Ut non nibh velit. Class aptent taciti sociosqu ad litora
-                    torquent per conubia nostra, per inceptos himenaeos. Nulla tortor dui, venenatis eget consectetur non,
-                    egestas a est. Nullam nec scelerisque lectus. Sed bibendum ut enim non tempus. Vestibulum commodo nunc
-                    at faucibus dignissim.
+                    Sou um Desenvolvedor FullStack Junior apaixonado por tecnologia e com habilidades principalmente no ecossistema JavaScript voltado para o Desenvolvimento Web e Mobile.
+                    Possuo conhecimentos nas tecnologias Javascript, HTML, CSS, React, Node.js, Git, GitHub, Docker, AWS, MongoDB, Express, MariaDB, MySQL, entre outras.
+                    Com conhecimento avançado da língua inglesa, estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades e crescer na carreira.
+                    Comecei a estudar desenvolvimento de software neste ano e já sou capaz de criar projetos de qualidade. Estou animado para me juntar a uma equipe inovadora e contribuir para o sucesso de projetos futuros.
                 </p>
             </div>
         </div>
