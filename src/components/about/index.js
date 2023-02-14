@@ -17,9 +17,9 @@ function About() {
                             Foco, disciplina e consistência.
                             Vamos revolucionar o mercado de tecnologia juntos?
                         </span>
-                        <a href="https://www.instagram.com/guhfrancisco_/" target="blank">
+                        <a href="https://www.linkedin.com/in/guhfrancisco/" target="blank">
                             <button className="profile-button">
-                                Conhecer insta!
+                                Perfil do LinkedIn
                             </button>
                         </a>
                         <div className="about-divider"></div>
