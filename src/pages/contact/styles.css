@@ -1,0 +1,140 @@
+.contact-container {
+    height: 100vh;
+    background-color: #333;
+    background-image: url('../../assets/contact-background.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-card {
+    background-color: #EFDDFD;
+    box-shadow: rgba(54, 6, 91, 0.25) 0px 30px 60px -12px, rgba(54, 6, 91, 0.3) 0px 18px 36px -18px;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.contact-content {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    padding-top: 15px;
+}
+
+form {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #210934;
+    font-size: 1em;
+}
+
+.contact-input {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #210934;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #36065B;
+    background-color: #EFDDFD;
+}
+
+.contact-input:hover {
+    border-color: #700CBC;
+}
+
+.contact-input:focus {
+    border-color: #700CBC;
+}
+
+.contact-textarea {
+    resize: none;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #210934;
+    height: 100px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #36065B;
+    background-color: #EFDDFD;
+}
+
+.contact-textarea:hover {
+    border-color: #700CBC;
+}
+
+.contact-textarea:focus {
+    border-color: #700CBC;
+}
+
+.contact-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #36065B;
+    color: #EFDDFD;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-button:hover {
+    background-color: #700CBC;
+    color: #EFDDFD;
+}
+
+.home-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: #36065B;
+    transition: 0.5s;
+    -webkit-mask: url("../../assets/home-icon.png") center/contain;
+    mask: url("../../assets/home-icon.png") center/contain;
+}
+
+.home-icon:hover {
+    background: #700CBC;
+}
+
+@media (max-width:1280px) {
+    .contact-card {
+        width: 300px;
+    }
+
+    .contact-input {
+        width: 200px;
+        font-size: 0.9em;
+    }
+
+    .contact-textarea {
+        width: 200px;
+        font-size: 0.9em;
+    }
+
+    h2 {
+        padding-top: 20px;
+        font-size: 1.3em;
+    }
+}

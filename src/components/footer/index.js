@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 function Footer() {
@@ -12,7 +13,7 @@ function Footer() {
                     <div className="list-divider"></div>
                     <a href="#portfolio"><span>Projetos</span></a>
                     <div className="list-divider"></div>
-                    <a href="#portfolio"><span>Contato</span></a>
+                    <Link to="/contact"><span>Contato</span></Link>
                 </div>
             </nav>
         </div>

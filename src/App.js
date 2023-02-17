@@ -1,14 +1,16 @@
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
-import About from './components/about';
-import Portfolio from './components/portfolio';
+import Contact from './pages/contact';
 
 function App() {
   return (
-    <div>
-      <Home />
-      <About />
-      <Portfolio />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/portfolio" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
