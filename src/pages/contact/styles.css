@@ -26,8 +26,11 @@
     align-items: center;
 }
 
-h2 {
+.contact-h2 {
     padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #210934;
+    font-size: 1.5em;
 }
 
 form {
@@ -133,7 +136,7 @@ form {
         font-size: 0.9em;
     }
 
-    h2 {
+    .contact-h2 {
         padding-top: 20px;
         font-size: 1.3em;
     }

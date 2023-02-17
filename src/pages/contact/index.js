@@ -7,7 +7,7 @@ function Contact() {
         <div className="contact-container">
             <div className="contact-card">
                 <div className="contact-content">
-                    <h2>Entre em contato</h2>
+                    <h2 className="contact-h2">Entre em contato</h2>
                     <form action="https://formspree.io/f/xqkoqzjq" method="POST">
                         <label className="contact-label">
                             Seu nome

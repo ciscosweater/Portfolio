@@ -39,12 +39,6 @@ h1 {
   transition: 0.5s;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #210934;
-  font-size: 1.5em;
-}
-
 h1:hover {
   color: #fff;
   cursor: pointer;
