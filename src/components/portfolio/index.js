@@ -22,8 +22,6 @@ function Portfolio() {
                     title="Batman"
                     description="Este projeto de site promocional para o filme do Batman foi desenvolvido utilizando HTML e CSS. 
                     Apresenta uma interface elegante e atraente, com um design limpo e moderno para promover o filme e atrair o público." />
-                <ProjectCard />
-                <ProjectCard />
             </div>
             <Footer />
         </div>
