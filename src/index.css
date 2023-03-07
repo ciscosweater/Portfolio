@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: #36065B;
+  background-color: #210934;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -68,10 +68,24 @@ input:focus {
   outline: none;
 }
 
+* {
+  scrollbar-width: 10px;
+  scrollbar-color: #700CBC;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #700CBC;
+  border-radius: 20px;
+}
+
 @media(max-width: 1280px) {
   body {
     width: 100vw;
-    background-color: #36065B;
+    background-color: #210934;
   }
 
   h1 {
