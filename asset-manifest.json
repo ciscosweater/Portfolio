@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c3955052.css",
-    "main.js": "/portfolio/static/js/main.ebc20671.js",
+    "main.js": "/portfolio/static/js/main.c7b4117a.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/youtube.png": "/portfolio/static/media/youtube.58643148424a30a00878.png",
     "static/media/batman.png": "/portfolio/static/media/batman.bb1f59d875b74cd8ac69.png",
@@ -13,14 +13,15 @@
     "static/media/enigma.jpg": "/portfolio/static/media/enigma.d7aa1d64f435d109dbf1.jpg",
     "static/media/perfil.jpg": "/portfolio/static/media/perfil.f9698a48828ef94cdc85.jpg",
     "static/media/home-icon.png": "/portfolio/static/media/home-icon.ab64c116eac5135cc30b.png",
+    "static/media/youtube2.png": "/portfolio/static/media/youtube2.c608c3917e8b4e0db25a.png",
     "static/media/whitereact.png": "/portfolio/static/media/whitereact.1fa9baf2ae30dd743aa5.png",
     "index.html": "/portfolio/index.html",
     "main.c3955052.css.map": "/portfolio/static/css/main.c3955052.css.map",
-    "main.ebc20671.js.map": "/portfolio/static/js/main.ebc20671.js.map",
+    "main.c7b4117a.js.map": "/portfolio/static/js/main.c7b4117a.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3955052.css",
-    "static/js/main.ebc20671.js"
+    "static/js/main.c7b4117a.js"
   ]
 }
