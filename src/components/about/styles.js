@@ -15,6 +15,7 @@ export const RollTitle = styled.span`
 
     @media(max-width: 1280px) {
         text-align: center;
+        padding-top: 20px;
     }
 `;
 
