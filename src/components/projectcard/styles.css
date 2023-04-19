@@ -1,16 +1,13 @@
 .card-container {
     height: 500px;
     width: 300px;
-    background-color: #210934;
+    background-color: #1b082b;
+    border: #1b082b 2px solid;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    border-radius: 10px;
+    border-radius: 8px;
     position: relative;
     transition: 0.5s;
     margin-bottom: 50px;
-}
-
-.card-container:hover {
-    transform: scale(1.05);
 }
 
 .card-image {
@@ -18,7 +15,7 @@
     height: 200px;
     object-fit: cover;
     object-position: 50% 0%;
-    border-radius: 8px 8px 0 0;
+    border-radius: 6px 6px 0 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
@@ -26,37 +23,40 @@
     font-family: 'Montserrat', sans-serif;
     color: #EFDDFD;
     text-align: center;
-    font-size: 1.5em;
-    margin-top: 10px;
-    margin-bottom: 12px;
+    font-size: 1.2em;
 }
 
 .card-description {
     font-family: 'Montserrat', sans-serif;
     color: #EFDDFD;
     font-size: 0.9em;
-    margin: 10px auto;
     width: 250px;
     height: 140px;
     text-align: center;
+    margin: 0px 0px 10px 0px;
 }
 
 .card-button {
-    width: 150px;
-    height: 50px;
+    width: 160px;
+    height: 45px;
     border-radius: 10px;
     border: none;
-    background-color: #36065B;
+    background-color: #390660;
     color: #EFDDFD;
     font-size: 0.8em;
     font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
-    margin-left: 75px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
 .card-button:hover {
-    background-color: #EFDDFD;
-    color: #36065B;
+    background-color: #550990;
+}
+
+.card-info {
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import avatarPic from "../../assets/avatar.png"
 import "./styles.css";
 
 function Title() {
@@ -16,7 +17,10 @@ function Title() {
                     </div>
                 </nav>
             </header>
-            <h1 onClick={() => setTexto(!texto)}>{texto ? 'Procurando um desenvolvedor FullStack?' : 'Posso ser a sua solução!'}</h1>
+            <div className="welcome-div">
+                <img className="avatar" src={avatarPic} alt="Avatar representando o Desenvolvedor." />
+                <h1 onClick={() => setTexto(!texto)}>{texto ? 'Bem vindo, me chamo Gustavo.' : 'O desenvolvedor que está procurando!'}</h1>
+            </div>
             <a href="#about">
                 <svg className="arrows">
                     <path className="a1" d="M0 0 L30 32 L60 0"></path>

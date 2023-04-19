@@ -34,13 +34,13 @@ code {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: #EFDDFD;
-  font-size: 60px;
+  color: #fff;
+  font-size: 3em;
   transition: 0.5s;
 }
 
 h1:hover {
-  color: #fff;
+  color: #EFDDFD;
   cursor: pointer;
   transform: scale(1.02);
 }
@@ -48,14 +48,13 @@ h1:hover {
 span {
   font-family: 'Montserrat', sans-serif;
   font-size: 21px;
-  color: #EFDDFD;
+  color: #fff;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 span:hover {
-  color: #fff;
-  transform: scale(1.02);
+  color: #EFDDFD;
 }
 
 a {

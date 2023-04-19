@@ -4,11 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: url('../../assets/home.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(14, 4, 22);
+    background: linear-gradient(90deg, rgba(14, 4, 22, 1) 0%, rgba(27, 8, 43, 1) 50%, rgba(41, 11, 65, 1) 100%);
     padding-top: 25px;
 }
 
@@ -24,6 +21,24 @@
     stroke-width: 1px;
     animation: arrow 2s infinite;
     -webkit-animation: arrow 2s infinite;
+}
+
+.welcome-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.avatar {
+    width: 140px;
+    aspect-ratio: 1/1;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.avatar:hover {
+    transform: scale(1.02);
 }
 
 @keyframes arrow {
