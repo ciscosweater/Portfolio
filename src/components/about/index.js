@@ -131,7 +131,7 @@ function About() {
                             Dez. de 2022 – Mar. de 2023
                         </p>
                     </div>
-                    <div className="certifications-container">
+                    <div className="experiences-container">
                         <span className="subtitle-text">Experiência Profissional</span>
                         <span className="certifications-title">Desenvolvedor Full Stack</span>
                         <p className="certifications-text">
