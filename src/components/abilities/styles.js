@@ -28,6 +28,7 @@ export const HabilityImg = styled.img`
 export const HabilityTitle = styled.span`
     font-size: 12px;
     margin: 10px 0px 15px 0px;
+    text-align: center;
 
     @media(max-width: 1280px) {
         font-size: 10px;

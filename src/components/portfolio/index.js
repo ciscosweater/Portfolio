@@ -6,6 +6,7 @@ import YoutubeImg from "../../assets/screenshots/youtube.png";
 import Youtube2Img from "../../assets/screenshots/youtube2.png";
 import CardapioImg from "../../assets/screenshots/cardapio.png";
 import WhatsappImg from "../../assets/screenshots/whatsapp.png";
+import MontyHallImg from "../../assets/screenshots/montyhall.png";
 import "./styles.css";
 import Footer from "../footer";
 
@@ -37,6 +38,15 @@ function Portfolio() {
                     description="Uma aplicação desafiadora e divertida construída com React. 
                     Aqui, você terá a chance de testar seu conhecimento e habilidades em adivinhação com charadas. 
                     A aplicação é rápida, fácil de usar e oferece uma experiência de usuário incrível."
+                    visit={true}
+                />
+                <ProjectCard
+                    image={MontyHallImg}
+                    link="https://portas-nine.vercel.app/"
+                    title="Problema de Monty Hall"
+                    description="Um projeto Next.JS inspirado no problema de Monty Hall, oferecendo uma aplicação interativa 
+                    para o usuário escolher a quantidade de portas que serão geradas e em qual porta estará o presente,
+                    a fim de recriar e debater o paradoxo."
                     visit={true}
                 />
                 <ProjectCard

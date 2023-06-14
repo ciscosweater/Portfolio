@@ -11,6 +11,8 @@ import gitPic from "../../assets/abilitiesIcons/git.png";
 import githubPic from "../../assets/abilitiesIcons/github.png";
 import mysqlPic from "../../assets/abilitiesIcons/mysql.png";
 import typescriptPic from "../../assets/abilitiesIcons/typescript.png";
+import nextjsPic from "../../assets/abilitiesIcons/nextjs.png";
+import styledPic from "../../assets/abilitiesIcons/styledcomponents.png";
 import "./styles.css";
 import Ability from "../abilities";
 import { Arrows, RollDown, RollTitle } from "./styles";
@@ -57,7 +59,29 @@ function About() {
             title: 'Git',
             src: gitPic
         }
+        ,
+        {
+            title: 'Next.js',
+            src: nextjsPic
+        }
+        ,
+        {
+            title: 'Styled Components',
+            src: styledPic
+        }
     ];
+
+    abilitiesArray.sort((a, b) => {
+        const titleA = a.title.toLowerCase();
+        const titleB = b.title.toLowerCase();
+        if (titleA < titleB) {
+            return -1;
+        }
+        if (titleA > titleB) {
+            return 1;
+        }
+        return 0;
+    });
 
     return (
         <div id="about" className="about-container">
