@@ -1,36 +1,36 @@
 import React from "react";
 import ProjectCard from "../projectcard";
 
-import BatmanImg from "../../assets/screenshots/batman.png";
+import BatmanImg from "../../assets/screenshots/thumbs/batman.png";
 import BatmanHome from "../../assets/screenshots/batman/home.png";
 import BatmanComments from "../../assets/screenshots/batman/comentarios.png";
 import BatmanMobile from "../../assets/screenshots/batman/mobile.png";
 
-import CardapioImg from "../../assets/screenshots/cardapio.png";
+import CardapioImg from "../../assets/screenshots/thumbs/cardapio.png";
 import CardapioDesktop from "../../assets/screenshots/cardapio/home.png";
 import CardapioHome from "../../assets/screenshots/cardapio/homemobile.png";
 import CardapioCheckout from "../../assets/screenshots/cardapio/checkout.png";
 import CardapioOrder from "../../assets/screenshots/cardapio/ordermobile.png";
 
-import EnigmaImg from "../../assets/screenshots/enigma.jpg";
+import EnigmaImg from "../../assets/screenshots/thumbs/enigma.png";
 import EnigmaDesktop from "../../assets/screenshots/enigma/desktop.png";
 import EnigmaMobile from "../../assets/screenshots/enigma/mobile.png";
 
-import MontyHallImg from "../../assets/screenshots/montyhall.png";
+import MontyHallImg from "../../assets/screenshots/thumbs/montyhall.png";
 import MontyHallHome from "../../assets/screenshots/montyhall/home.png";
 import MontyHallPortas from "../../assets/screenshots/montyhall/portas.png";
 import MontyHallPresente from "../../assets/screenshots/montyhall/presente.png";
 
-import WhatsappImg from "../../assets/screenshots/whatsapp.png";
+import WhatsappImg from "../../assets/screenshots/thumbs/whatsapp.png";
 import WhatsappHome from "../../assets/screenshots/whatsapp/home.png";
 import WhatsappChat from "../../assets/screenshots/whatsapp/chat.png";
 
-import YoutubeImg from "../../assets/screenshots/youtube.png";
+import YoutubeImg from "../../assets/screenshots/thumbs/youtube.png";
 import YoutubeHome from "../../assets/screenshots/youtube/home.png";
 import YoutubeMenu from "../../assets/screenshots/youtube/home2.png";
 import YoutubeMobile from "../../assets/screenshots/youtube/mobile.png";
 
-import Youtube2Img from "../../assets/screenshots/youtube2.png";
+import Youtube2Img from "../../assets/screenshots/thumbs/youtube2.png";
 import Youtube2Home from "../../assets/screenshots/youtube2/home.png";
 import Youtube2Login from "../../assets/screenshots/youtube2/login.png";
 import Youtube2Menu from "../../assets/screenshots/youtube2/openmenu.png";
