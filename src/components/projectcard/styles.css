@@ -60,3 +60,46 @@
     flex-direction: column;
     align-items: center;
 }
+
+.show-more {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 6px 6px 0 0;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.show-more-button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #0000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #0000;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+.show-more:hover {
+    background-color: #0008;
+}
+
+.show-more:hover .show-more-button {
+    color: #EFDDFD;
+    border: 1px solid #EFDDFD;
+}
+
+@media (max-width: 1280px) {
+    .show-more {
+        display: none;
+    }
+}
