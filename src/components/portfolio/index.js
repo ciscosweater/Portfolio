@@ -16,6 +16,12 @@ import EnigmaImg from "../../assets/screenshots/thumbs/enigma.png";
 import EnigmaDesktop from "../../assets/screenshots/enigma/desktop.png";
 import EnigmaMobile from "../../assets/screenshots/enigma/mobile.png";
 
+import QuizImg from "../../assets/screenshots/thumbs/quiztimer.png";
+import QuizHome from "../../assets/screenshots/quiztimer/home.png";
+import QuizQuestion from "../../assets/screenshots/quiztimer/question.png";
+import QuizAnswer from "../../assets/screenshots/quiztimer/answer.png";
+import QuizResults from "../../assets/screenshots/quiztimer/results.png";
+
 import MontyHallImg from "../../assets/screenshots/thumbs/montyhall.png";
 import MontyHallHome from "../../assets/screenshots/montyhall/home.png";
 import MontyHallPortas from "../../assets/screenshots/montyhall/portas.png";
@@ -123,6 +129,36 @@ function Portfolio() {
                         {
                             src: EnigmaMobile,
                             title: "Versão Mobile"
+                        }
+                    ]}
+                    setImages={setMoreImages}
+                    moreOpen={setMoreOpen}
+                />
+                <ProjectCard
+                    image={QuizImg}
+                    link="https://quiz-gamer.vercel.app/"
+                    title="Quiz com Timer"
+                    description="Este projeto foi completamente desenvolvido utilizando o Next. 
+                    Com essa tecnologia, os jogadores têm a oportunidade de desfrutar de uma experiência fluida 
+                    e responsiva. O Next.js assume a lógica do 
+                    Quiz e o banco de questões. "
+                    visit={true}
+                    imagesToSet={[
+                        {
+                            src: QuizHome,
+                            title: "Página inicial"
+                        },
+                        {
+                            src: QuizQuestion,
+                            title: "Pergunta"
+                        },
+                        {
+                            src: QuizAnswer,
+                            title: "Respostas"
+                        },
+                        {
+                            src: QuizResults,
+                            title: "Resultados"
                         }
                     ]}
                     setImages={setMoreImages}
