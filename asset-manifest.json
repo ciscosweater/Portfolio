@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ed43c830.css",
-    "main.js": "/portfolio/static/js/main.15823dfe.js",
+    "main.js": "/portfolio/static/js/main.5c0ba09f.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/subscriptions.png": "/portfolio/static/media/subscriptions.c2da0340869ed95904c7.png",
     "static/media/home.png": "/portfolio/static/media/home.a3b225115ee9397826e9.png",
@@ -26,11 +26,15 @@
     "static/media/portfolio-background.jpg": "/portfolio/static/media/portfolio-background.14562d49baa230f36200.jpg",
     "static/media/nextjs.png": "/portfolio/static/media/nextjs.93df8c92831ec7243303.png",
     "static/media/signup.png": "/portfolio/static/media/signup.75f942c25314e3b5b89d.png",
+    "static/media/quiztimer.png": "/portfolio/static/media/quiztimer.d085b33ee8fd6ccef01b.png",
     "static/media/login.png": "/portfolio/static/media/login.0daa39ee8584a9983ba0.png",
     "static/media/montyhall.png": "/portfolio/static/media/montyhall.e625bf89fad239729de5.png",
     "static/media/youtube2.png": "/portfolio/static/media/youtube2.acd567072052152cd21b.png",
     "static/media/desktop.png": "/portfolio/static/media/desktop.e99ff08b88043387690c.png",
+    "static/media/answer.png": "/portfolio/static/media/answer.17b66d58d461e0a7dbe6.png",
     "static/media/upload.png": "/portfolio/static/media/upload.be96550856d1d34e86ce.png",
+    "static/media/question.png": "/portfolio/static/media/question.a2c33f2b277d6f3d5b1f.png",
+    "static/media/results.png": "/portfolio/static/media/results.8a084d07589b684c1eee.png",
     "static/media/perfil.jpg": "/portfolio/static/media/perfil.f9698a48828ef94cdc85.jpg",
     "static/media/avatar.png": "/portfolio/static/media/avatar.34b9d9cc9ef2a0f45d17.png",
     "static/media/home-icon.png": "/portfolio/static/media/home-icon.ab64c116eac5135cc30b.png",
@@ -46,11 +50,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/closeIcon.svg": "/portfolio/static/media/closeIcon.71614cf0d0c116dc05f28981e6e699c5.svg",
     "main.ed43c830.css.map": "/portfolio/static/css/main.ed43c830.css.map",
-    "main.15823dfe.js.map": "/portfolio/static/js/main.15823dfe.js.map",
+    "main.5c0ba09f.js.map": "/portfolio/static/js/main.5c0ba09f.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed43c830.css",
-    "static/js/main.15823dfe.js"
+    "static/js/main.5c0ba09f.js"
   ]
 }
