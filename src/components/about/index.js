@@ -16,6 +16,8 @@ import styledPic from "../../assets/abilitiesIcons/styledcomponents.png";
 import "./styles.css";
 import Ability from "../abilities";
 import { Arrows, RollDown, RollTitle } from "./styles";
+import Certifications from "./certifications";
+import Experiences from "./experiences";
 
 function About() {
     const abilitiesArray = [
@@ -134,48 +136,8 @@ function About() {
                             Comecei a estudar desenvolvimento de software neste ano e já sou capaz de criar projetos de qualidade. Estou animado para me juntar a uma equipe inovadora e contribuir para o sucesso de projetos futuros.
                         </p>
                     </div>
-                    <div className="certifications-container">
-                        <span className="subtitle-text">Certificações</span>
-                        <span className="certifications-title">Profissão Programador</span>
-                        <p className="certifications-text">
-                            Paulo Borges<br />
-                            Front-end, Back-end, Arquitetura e
-                            padrões de projeto, cloud, dentre outros
-                            do mundo de Desenvolvimento de
-                            Sistemas.<br />
-                            Jan. de 2023 – Abril de 2023
-                        </p>
-                        <div className="certifications-divider" />
-                        <span className="certifications-title">FreeCodeCamp</span>
-                        <p className="certifications-text">
-                            Design Responsivo para Web,
-                            Algoritmos e estruturas de dados em
-                            JavaScript e Bibliotecas de
-                            desenvolvimento em Front-End.<br />
-                            Dez. de 2022 – Mar. de 2023
-                        </p>
-                    </div>
-                    <div className="experiences-container">
-                        <span className="subtitle-text">Experiência Profissional</span>
-                        <span className="certifications-title">Desenvolvedor Full Stack</span>
-                        <p className="certifications-text">
-                            Deliciê Brigadeiros, Barreiras, BA<br />
-                            Mar. de 2023 – Freelance<br />
-                            Desenvolvi do zero, como freelancer, uma aplicação de
-                            cardápio online para agilizar a demanda dessa doceria
-                            no período de páscoa
-                        </p>
-                        <div className="certifications-divider" />
-                        <span className="certifications-title">Designer Gráfico</span>
-                        <p className="certifications-text">
-                            Cisco - Design Gráfico, Barreiras, BA<br />
-                            Jun. de 2021 – Ago. de 2022<br />
-                            Trabalhei como freelancer de design gráfico,
-                            atendendo diversos tipos de clientes, desenvolvendo
-                            desde logotipos e identidades visuais, até artes para
-                            postagens em redes sociais.
-                        </p>
-                    </div>
+                    <Certifications />
+                    <Experiences />
                 </div>
             </div>
             <RollDown>
