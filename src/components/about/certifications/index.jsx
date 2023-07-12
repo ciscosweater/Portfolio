@@ -61,7 +61,7 @@ function Certifications() {
         },
         {
             title: "Next.js e React - Curso Completo",
-            text: `COD3R Cursos<br />
+            text: `COD3R Cursos - Udemy<br />
             Next.js, React.js, estratégias SPA, SSR e SSG, Firebase, 
             integração com Tailwind CSS e TypeScript, deploy na nuvem.<br />
             Jun. de 2023 - Jul. de 2023`
