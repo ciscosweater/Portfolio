@@ -20,15 +20,6 @@ import Certifications from "./certifications";
 import Experiences from "./experiences";
 
 function About() {
-
-    const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = '/curriculo.pdf'; // Substitua com o caminho correto para o seu currículo
-        link.download = 'curriculo.pdf';
-        link.click();
-      };
-    
-
     const abilitiesArray = [
         {
             title: 'JavaScript',
@@ -117,10 +108,12 @@ function About() {
                                 </button>
                             </a>
                         </div>
-                        <button className="curriculum-button" onClick={handleDownload}>
-                            <img className="download-icon" src={downloadPic} alt="Icone de download." />
-                            Meu currículo
-                        </button>
+                        <a href="https://drive.google.com/file/d/1ePqzKembLw1FERj5hNnwSwlhOuzoCaAd/view?usp=sharing" target="blank">
+                            <button className="curriculum-button">
+                                <img className="download-icon" src={downloadPic} alt="Icone de download." />
+                                Meu currículo
+                            </button>
+                        </a>
                         <div className="about-divider"></div>
                         <span className="abilities-title">Minhas habilidades</span>
                         <div className="icons-container">
@@ -137,10 +130,11 @@ function About() {
                     <div className="bio-container">
                         <span className="subtitle-text">Sobre mim</span>
                         <p className="profile-sinopse">
-                        Sou um estudante de engenharia civil em transição para a área de programação, apaixonado por tecnologia. 
-                        Tenho habilidades no ecossistema JavaScript, incluindo TypeScript, Node.JS, React e Next.js com experiência em projetos menores voluntários. 
-                        Busco constantemente desafios para aprimorar minhas habilidades e contribuir para o sucesso de projetos futuros. Com conhecimento avançado em inglês, 
-                        estou pronto para integrar equipes inovadoras e aplicar minhas habilidades técnicas.
+                        Sou um estudante de engenharia civil em transição para a área de programação, movido pela minha paixão pela tecnologia. 
+                        Possuo habilidades abrangentes no ecossistema JavaScript, com proficiência em TypeScript, Node.JS, React e Next.js, 
+                        adquirida por meio de diversos projetos desafiadores. Estou constantemente em busca de oportunidades para aprimorar 
+                        minhas habilidades e contribuir para o sucesso de projetos ambiciosos. Com fluência em inglês e um nível avançado de compreensão, 
+                        estou preparado para integrar equipes inovadoras e aplicar minhas competências técnicas com excelência.
                         </p>
                     </div>
                     <Certifications />
