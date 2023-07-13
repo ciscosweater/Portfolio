@@ -20,6 +20,15 @@ import Certifications from "./certifications";
 import Experiences from "./experiences";
 
 function About() {
+
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/curriculo.pdf'; // Substitua com o caminho correto para o seu currículo
+        link.download = 'curriculo.pdf';
+        link.click();
+      };
+    
+
     const abilitiesArray = [
         {
             title: 'JavaScript',
@@ -108,12 +117,10 @@ function About() {
                                 </button>
                             </a>
                         </div>
-                        <a href="https://drive.google.com/file/d/1eY0nAcv6-rxSlC0bW8pCICvjElH3ryFh/view?usp=share_link" target="blank">
-                            <button className="curriculum-button">
-                                <img className="download-icon" src={downloadPic} alt="Icone de download." />
-                                Meu currículo
-                            </button>
-                        </a>
+                        <button className="curriculum-button" onClick={handleDownload}>
+                            <img className="download-icon" src={downloadPic} alt="Icone de download." />
+                            Meu currículo
+                        </button>
                         <div className="about-divider"></div>
                         <span className="abilities-title">Minhas habilidades</span>
                         <div className="icons-container">
@@ -130,10 +137,10 @@ function About() {
                     <div className="bio-container">
                         <span className="subtitle-text">Sobre mim</span>
                         <p className="profile-sinopse">
-                            Sou um Desenvolvedor FullStack Junior apaixonado por tecnologia e com habilidades principalmente no ecossistema JavaScript voltado para o Desenvolvimento Web e Mobile.
-                            Possuo conhecimentos nas tecnologias Javascript, HTML, CSS, React, Node.js, Git, GitHub, Docker, AWS, MongoDB, Express, MariaDB, MySQL, entre outras.
-                            Com conhecimento avançado da língua inglesa, estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades e crescer na carreira.
-                            Comecei a estudar desenvolvimento de software neste ano e já sou capaz de criar projetos de qualidade. Estou animado para me juntar a uma equipe inovadora e contribuir para o sucesso de projetos futuros.
+                        Sou um estudante de engenharia civil em transição para a área de programação, apaixonado por tecnologia. 
+                        Tenho habilidades no ecossistema JavaScript, incluindo TypeScript, Node.JS, React e Next.js com experiência em projetos menores voluntários. 
+                        Busco constantemente desafios para aprimorar minhas habilidades e contribuir para o sucesso de projetos futuros. Com conhecimento avançado em inglês, 
+                        estou pronto para integrar equipes inovadoras e aplicar minhas habilidades técnicas.
                         </p>
                     </div>
                     <Certifications />
