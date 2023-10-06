@@ -21,11 +21,21 @@ function Experiences() {
     const experiences = [
         {
             title: "Desenvolvedor Full Stack",
-            text: `Deliciê Brigadeiros, Barreiras, BA<br />
+            text: `Cardápio Delivery<br />
             Mar. de 2023 – Freelance<br />
             Desenvolvi do zero, como freelancer, uma aplicação de
-            cardápio online para agilizar a demanda dessa doceria
-            no período de páscoa`
+            cardápio online para agilizar a demanda da doceria Deliciê Brigadeiros
+            no período de páscoa.`
+        },
+        {
+            title: "Desenvolvedor Full Stack",
+            text: `Front-End de Sistema de Gerenciamento de Rastreamento Veicular<br />
+            Jul. de 2023 – Freelance<br />
+            Como membro de uma equipe de programadores,
+            trabalhei em colaboração no desenvolvimento
+            completo do Front-End de um sistema abrangente de
+            gerenciamento e relatórios para a Movetrak, uma
+            empresa especializada em Rastreamento Veicular.`
         },
         {
             title: "Designer Gráfico",
@@ -61,7 +71,7 @@ function Experiences() {
                 {renderizarExperiences()}
             </Render>
             <PageSelectorLine>
-                <Indicator>{actualPage} de {Math.floor(experiences.length / 2)} página{Math.floor(experiences.length / 2) > 2 ? 's' : ''}</Indicator>
+                <Indicator>{actualPage} de {Math.ceil(experiences.length / 2)} página{Math.ceil(experiences.length / 2) >= 2 ? 's' : ''}</Indicator>
                 <ButtonDiv>
                     <Button onClick={previousPage}>
                         <Icon src={PreviousIcon} />
